@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Dinámico - Proyecto Unidad 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>TienRobo</h1>
+        <p>Productos de todo tipo</p>
+    </header>
+
+    <!-- Contenedor principal donde se cargarán las tarjetas -->
+    <main>
+        <div id="loading">
+            <p>Cargando productos...</p>
+        </div>
+        
+        <div id="productos-container" class="productos-grid">
+            <!-- Aquí se generarán las tarjetas dinámicamente con JavaScript -->
+        </div>
+
+        <div id="error" style="display: none;">
+            <p>Error al cargar los productos. Por favor, recarga la página.</p>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Desarrollado por David Pascacio (Akane) | Tecnologías y Aplicaciones en Internet</p>
+    </footer>
+
+    <!-- Vinculamos el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
